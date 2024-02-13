@@ -22,23 +22,23 @@ python3 main_sitta.py --dataset gmsc --phase 2
 Please put your images in the following format:
 ```
 IMAGE_FOLDER:
-├── domainA_aaa.png
-├── domainA_bbb.png
-├── domainA_ccc.png
+├── domain1_aaa.png
+├── domain1_bbb.png
+├── domain1_ccc.png
 ├── ...
-├── domainB_aaa.png
-├── domainB_bbb.png
-├── domainB_ccc.png
+├── domain2_aaa.png
+├── domain2_bbb.png
+├── domain2_ccc.png
 ├── ...
 
 MASK_FOLDER:
-├── domainA_aaa.png
-├── domainA_bbb.png
-├── domainA_ccc.png
+├── domain1_aaa.png
+├── domain1_bbb.png
+├── domain1_ccc.png
 ├── ...
-├── domainB_aaa.png
-├── domainB_bbb.png
-├── domainB_ccc.png
+├── domain2_aaa.png
+├── domain2_bbb.png
+├── domain2_ccc.png
 ├── ...
 ```
 
@@ -46,5 +46,5 @@ MASK_FOLDER:
 To train your own models, you can use the following code:
 
 ```
-python3 main_supervised.py --dataset custom --image_dir IMAGE_FOLDER --mask_dir MASK_FOLDER --domain A
+python3 main_supervised.py --dataset custom --image_dir IMAGE_FOLDER --mask_dir MASK_FOLDER --domain 1
 ```
