@@ -2,7 +2,7 @@
 
 #### By  [Haoyu Dong](https://scholar.google.com/citations?user=eZVEUCIAAAAJ&hl=en), [Nicholas Konz](https://nickk124.github.io/), Hanxue Gu and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
 
-[![arXiv Paper](https://arxiv.org/abs/2402.09604)
+<img src='https://github.com/mazurowski-lab/single-image-test-time-adaptation/blob/main/BNstats.png' width='100%'>
 
 This is the code for our paper [**"Medical Image Segmentation with InTEnt: Integrated Entropy Weighting for Single Image Test-Time Adaptation"**](), where we investigate an extreme case of Test-Time Adaptation (TTA) in which only a single test image is available, i.e., Single Image TTA, or **SITTA**. 
 
