@@ -2,7 +2,7 @@
 
 #### By  [Haoyu Dong](https://scholar.google.com/citations?user=eZVEUCIAAAAJ&hl=en), [Nicholas Konz](https://nickk124.github.io/), Hanxue Gu and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
 
-[![arXiv Paper]()
+[![arXiv Paper](https://arxiv.org/abs/2402.09604)
 
 This is the code for our paper [**"Medical Image Segmentation with InTEnt: Integrated Entropy Weighting for Single Image Test-Time Adaptation"**](), where we investigate an extreme case of Test-Time Adaptation (TTA) in which only a single test image is available, i.e., Single Image TTA, or **SITTA**. 
 
@@ -48,3 +48,16 @@ To train your own models, you can use the following code:
 ```
 python3 main_supervised.py --dataset custom --image_dir IMAGE_FOLDER --mask_dir MASK_FOLDER --domain 1
 ```
+
+## Citation
+
+Please cite our paper if you use our code or reference our work:
+```bib
+@inproceedings{Dong2024MedicalIS,
+  title={Medical Image Segmentation with InTEnt: Integrated Entropy Weighting for Single Image Test-Time Adaptation},
+  author={Haoyu Dong and N. Konz and Han Gu and Maciej A. Mazurowski},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:267682146}
+}
+```
+
